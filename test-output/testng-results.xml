@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46203" started-at="2019-12-14T16:12:09 CET" finished-at="2019-12-14T16:12:55 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46203" started-at="2019-12-14T16:12:09 CET" finished-at="2019-12-14T16:12:55 CET">
+      <class name="phpTravelsTests.VerifyTravelsCarsExtras">
+        <test-method status="PASS" signature="setup()[pri:0, instance:phpTravelsTests.VerifyTravelsCarsExtras@530612ba]" name="setup" is-config="true" duration-ms="3871" started-at="2019-12-14T16:12:09 CET" finished-at="2019-12-14T16:12:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="cars()[pri:1, instance:phpTravelsTests.VerifyTravelsCarsExtras@530612ba]" name="cars" duration-ms="31919" started-at="2019-12-14T16:12:13 CET" finished-at="2019-12-14T16:12:45 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cars -->
+        <test-method status="PASS" signature="findCarName()[pri:2, instance:phpTravelsTests.VerifyTravelsCarsExtras@530612ba]" name="findCarName" duration-ms="2007" started-at="2019-12-14T16:12:45 CET" finished-at="2019-12-14T16:12:47 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCarName -->
+        <test-method status="PASS" signature="inputStringInPriceFieldTest()[pri:3, instance:phpTravelsTests.VerifyTravelsCarsExtras@530612ba]" name="inputStringInPriceFieldTest" duration-ms="7541" started-at="2019-12-14T16:12:47 CET" finished-at="2019-12-14T16:12:55 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputStringInPriceFieldTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:phpTravelsTests.VerifyTravelsCarsExtras@530612ba]" name="quit" is-config="true" duration-ms="720" started-at="2019-12-14T16:12:55 CET" finished-at="2019-12-14T16:12:55 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- phpTravelsTests.VerifyTravelsCarsExtras -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

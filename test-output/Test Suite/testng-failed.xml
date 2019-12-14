@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Test Suite]">
+  <test thread-count="1" verbose="3" name="Performing All Tests(failed)">
+    <classes>
+      <class name="phpTravelsTests.VerifyTravelsMenu">
+        <methods>
+          <include name="verifyCars"/>
+          <include name="verifyNewsletter"/>
+          <include name="quit"/>
+          <include name="getHomepage"/>
+          <include name="verifyAddNewTours"/>
+          <include name="verifyModules"/>
+          <include name="verifyUpdates"/>
+          <include name="setup"/>
+          <include name="verifyCoupons"/>
+          <include name="verifyBookings"/>
+          <include name="verifyDashboard"/>
+        </methods>
+      </class> <!-- phpTravelsTests.VerifyTravelsMenu -->
+      <class name="phpTravelsTests.VerifyTravelsCustomer">
+        <methods>
+          <include name="verifyCustomers"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- phpTravelsTests.VerifyTravelsCustomer -->
+      <class name="phpTravelsTests.VerifyLogin">
+        <methods>
+          <include name="verifyLoggingIn"/>
+          <include name="quit"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- phpTravelsTests.VerifyLogin -->
+      <class name="phpTravelsTests.VerifyTravelsCars">
+        <methods>
+          <include name="getHomepage"/>
+          <include name="quit"/>
+          <include name="verifyNumberOfCarModels"/>
+          <include name="verifyNumberOfOrders"/>
+          <include name="uploadPhoto"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- phpTravelsTests.VerifyTravelsCars -->
+      <class name="phpTravelsTests.VerifyTravelsCarsExtras">
+        <methods>
+          <include name="findCarName"/>
+          <include name="quit"/>
+          <include name="inputStringInPriceFieldTest"/>
+          <include name="setup"/>
+          <include name="cars"/>
+        </methods>
+      </class> <!-- phpTravelsTests.VerifyTravelsCarsExtras -->
+    </classes>
+  </test> <!-- Performing All Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

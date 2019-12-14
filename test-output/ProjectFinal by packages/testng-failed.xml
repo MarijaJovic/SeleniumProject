@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ProjectFinal by packages]">
+  <test thread-count="5" name="phpTravelsTests(failed)">
+    <classes>
+      <class name="phpTravelsTests.TravelsCarsTest">
+        <methods>
+          <include name="testNumberOfOrders"/>
+          <include name="uploadPhoto"/>
+          <include name="setup"/>
+          <include name="quit"/>
+          <include name="testNumberOfCarModels"/>
+          <include name="getHomepage"/>
+        </methods>
+      </class> <!-- phpTravelsTests.TravelsCarsTest -->
+      <class name="phpTravelsTests.TravelsCarsExtrasTest">
+        <methods>
+          <include name="findCarName"/>
+          <include name="setup"/>
+          <include name="quit"/>
+          <include name="inputStringInPriceFieldTest"/>
+          <include name="cars"/>
+        </methods>
+      </class> <!-- phpTravelsTests.TravelsCarsExtrasTest -->
+      <class name="phpTravelsTests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="quit"/>
+          <include name="testCheckLogin"/>
+        </methods>
+      </class> <!-- phpTravelsTests.LoginTest -->
+      <class name="phpTravelsTests.TravelCustomerTest">
+        <methods>
+          <include name="testCustomers"/>
+          <include name="setup"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- phpTravelsTests.TravelCustomerTest -->
+      <class name="phpTravelsTests.TravelsMenuTest">
+        <methods>
+          <include name="checkBookings"/>
+          <include name="setup"/>
+          <include name="checkModules"/>
+          <include name="checkCoupons"/>
+          <include name="quit"/>
+          <include name="checkAddNewTours"/>
+          <include name="getHomepage"/>
+          <include name="checkCars"/>
+          <include name="checkUpdates"/>
+          <include name="checkDashboard"/>
+          <include name="checkNewsletter"/>
+        </methods>
+      </class> <!-- phpTravelsTests.TravelsMenuTest -->
+    </classes>
+  </test> <!-- phpTravelsTests(failed) -->
+</suite> <!-- Failed suite [ProjectFinal by packages] -->
